@@ -5,7 +5,7 @@ Nesse curso é ensinado como contribuir com projetos de código aberto.
 
 Link do curso [Python Pro](https://pythonpro.com.br)
 
-Suportada versão 3 de Python
+Suportada versão 3 de Python.
 
 Para instalar:
 
