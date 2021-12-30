@@ -1,8 +1,12 @@
 name: Python Application
-on: [push]
+on: [pull_request]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install -r requirements-dev.txt
-      - run: flake8
+      - name: Install dependencies
+      - run: |
+      pip install -r requirements-dev.txt
+      - name: Runner Flake8
+      - run: |
+      flake8
