@@ -2,6 +2,7 @@ name: Python Application
 on: [pull_request]
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
       - run: pip install -r requirements-dev.txt
