@@ -1,8 +1,9 @@
 name: Python Application
 on: [pull_request]
 jobs:
-  steps:
-    - name: Install dependencies
-    - run: pip install -r requirements-dev.txt
-    - name: Runner Flake8
-    - run: flake8
+  build:
+    steps:
+      - name: Install dependencies
+      - run: pip install -r requirements-dev.txt
+      - name: Runner Flake8
+      - run: flake8
