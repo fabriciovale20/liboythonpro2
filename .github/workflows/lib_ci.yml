@@ -4,7 +4,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run:
-      pip install -r requirements-dev.txt
-      - run:
-      flake8
+      - run: pip install -r requirements-dev.txt
+      - run: flake8
