@@ -3,12 +3,17 @@ mccabe==0.6.1
 pycodestyle==2.8.0
 pyflakes==2.4.0
 
+# Deps do pytest
 pluggy==1.0.0
 py==1.11.0
 attrs==21.4.0
 pyparsing==3.0.6
 pytest==6.2.5
 toml==0.10.2
+
+#Converage
+pytest-cov==3.0.0
+coverage==6.2
 
 -r requirements.txt
 

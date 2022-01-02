@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: pip install -r requirements-dev.txt
+      - run: pip install -r requirements-dev.txt codecov
       - run: flake8
+      - run: pytest libpythonpro --cov=libpythonpro
+      - run: codecov
