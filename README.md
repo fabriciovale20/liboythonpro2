@@ -7,6 +7,8 @@ Link do curso [Python Pro](https://pythonpro.com.br)
 
 Suportada versão 3 de Python
 
+[![codecov](https://codecov.io/gh/fabriciovale20/libpythonpro2/branch/main/graph/badge.svg?token=1KGCR5W8UQ)](https://codecov.io/gh/fabriciovale20/libpythonpro2)
+
 Para instalar:
 
 ```console
